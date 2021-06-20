@@ -40,7 +40,8 @@ res1 = requests.request("GET", x5sec_url, headers=headers1)
 
 x5sec =res1.headers['bx-x5sec'].split(" ")[0].strip()
 
-# print(x5sec)
+print(x5sec)
+print(res1.content)
 csr_url = "https://member.lazada.sg/user/api/getCsrfToken"
 res2 = ses.get(csr_url)
 tb_token = res2.cookies['_tb_token_']
