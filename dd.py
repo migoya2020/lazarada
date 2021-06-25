@@ -1,3 +1,6 @@
-https://acs-m.lazada.sg/h5/mtop.lazada.homepage.service/1.0/?jsv=2.6.1&appKey=24677475&t=1624228907553&sign=fee81b0725078e0ab6d09be0c24df241&api=mtop.lazada.homepage.service&v=1.0&timeout=8000&x-i18n-language=en&x-i18n-regionID=SG&dataType=json&type=originaljson&data=%7B%22language%22%3A%22en-SG%22%2C%22regionID%22%3A%22SG%22%2C%22platform%22%3A%22pc%22%2C%22userID%22%3A%22%22%2C%22anonUID%22%3A%22c328b6f1fe06a9af1cf8fcf407f1aa80%22%2C%22deviceID%22%3A%22%22%2C%22voyagerVersion%22%3A%222%22%2C%22pageNo%22%3A0%2C%22isbackup%22%3Atrue%2C%22backupParams%22%3A%22language%2CregionID%2Cplatform%2CpageNo%22%2C%22pcSlot%22%3A%22200%22%2C%22mobileSlot%22%3A%22200%22%2C%22appId%22%3A%22icms-zebra-5000357-2586207%22%2C%22_pvuuid%22%3A1624228890397%2C%22terminalType%22%3A1%7D&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc
 
-https://acs-m.lazada.sg/h5/mtop.lazada.homepage.service/1.0/?jsv=2.6.1&appKey=24814220&t=1624231075428&sign=fee81b0725078e0ab6d09be0c24df241&api=mtop.lazada.homepage.service&v=1.0&H5Request=true&syncCookieMode=true&x-i18n-language=en&x-i18n-regionID=sg&type=jsonp&dataType=jsonp&callback=mtopjsonp2&data=%7B%7D
+import time
+def getCollina():
+    collina = int(round(time.time() * 100000000000000))
+    return collina
+ 

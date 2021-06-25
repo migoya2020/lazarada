@@ -10,16 +10,15 @@ import urllib.parse
 from time import sleep
 from openpyxl.workbook import Workbook
 
-
 finaldata = []
- 
-
 
 def getCurrentEpochTime():
     milliseconds = int(round(time.time() * 1000))
     return milliseconds
 
-
+def getCollina():
+    collina = int(round(time.time() * 100000000000000))
+    return collina
 ses = requests.Session()
 mmstat = "https://gm.mmstat.com/fsp.1.1"
 headers0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
@@ -37,6 +36,7 @@ sca = res0.cookies.get('sca')
 
 url1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'
 headers0.update({"cookie": sca})
+# headers0.update({"cookie": cna})
 aptResp = ses.get(url1, headers=headers0)
 atpsida = aptResp.cookies.get('atpsida')
 cna = aptResp.cookies.get('cna')
@@ -64,7 +64,7 @@ headers2 = {
     'accept-language': 'en-US,en;q=0.9',
 
 }
-cust_cookie1 = '_uab_collina=162420906464852886455375; t_uid=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383; t_sid=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE; utm_channel=NA; cna=qGRWGaAGK1kCAcXoPfgWqu5o'
+cust_cookie1 = '_uab_collina='+str(getCollina())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; utm_channel=NA; cna='+cna
 newCookie1 = cust_cookie1+"t_fv="+str(getCurrentEpochTime())+";"+"cna="+cna+";"
 headers2.update({"cookie": newCookie1})
 res1 = requests.request("GET", x5sec_url, headers=headers2)
@@ -74,12 +74,14 @@ x5sec = res1.cookies.get('x5sec')
 # print(x5sec)
 # print(res1.content)
 csr_url = "https://member.lazada.sg/user/api/getCsrfToken"
-res2 = ses.get(csr_url)
+headers2.update({'referer':csr_url})
+headers2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+"; "+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})
+res2 = ses.get(csr_url, headers=headers2)
 tb_token = res2.cookies['_tb_token_']
 anon_id = res2.cookies['anon_uid']
 lzd_sid = res2.cookies['lzd_sid']
 
-cust_cookie2 = 't_uid=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383;cna=qGRWGaAGK1kCAcXoPfgWqu5o;hng=SG|en-SG|SGD|702;client_type=desktop;'
+cust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'
 newCookie2 = cust_cookie2+"_tb_token_="+tb_token+";"+"anon_uid="+anon_id+";"+"lzd_sid=" + \
     lzd_sid+";"+"t_fv="+str(getCurrentEpochTime()) + \
     ";"+"Domain=.lazada.sg; Path=/;"+x5sec
@@ -109,30 +111,31 @@ headers3.update({"cookie": newCookie2})
 keywords = [
             'lego 42121',
             'lego 76160',
-            'lego 76191',
-            'lego 71372',
-            'lego 10941',
-            'lego 11013',
-            'lego 76383',
-            'lego 10951',
-            'lego 41936',
-            'lego 42123',
-            'lego 43191',
-            'lego 60287',
-            'lego 60291',
-            'lego 60304',
-            'lego 71736',
-            'lego 31115',
-            'lego 76901',
-            'lego 11001',
-            'lego 10872',
-            'lego 10920',
-            'lego 10915',
-            'lego 75551',
-            'lego 71742',
-            'lego 71360',
-            'lego 71368',
-            'lego 76165']
+            # 'lego 76191',
+            # 'lego 71372',
+            # 'lego 10941',
+            # 'lego 11013',
+            # 'lego 76383',
+            # 'lego 10951',
+            # 'lego 41936',
+            # 'lego 42123',
+            # 'lego 43191',
+            # 'lego 60287',
+            # 'lego 60291',
+            # 'lego 60304',
+            # 'lego 71736',
+            # 'lego 31115',
+            # 'lego 76901',
+            # 'lego 11001',
+            # 'lego 10872',
+            # 'lego 10920',
+            # 'lego 10915',
+            # 'lego 75551',
+            # 'lego 71742',
+            # 'lego 71360',
+            # 'lego 71368',
+            # 'lego 76165'
+            ]
 def getProductsDetails(keywords):
     for keyword in keywords:
         keyword_index =keywords.index(keyword)+1
@@ -141,7 +144,7 @@ def getProductsDetails(keywords):
         
         try:
             new_string = urllib.parse.quote_plus(keyword)
-            keyword_url ='https://www.lazada.sg/catalog/?q='+str(new_string)
+            keyword_url ='https://www.lazada.sg/catalog/?page=1&?q='+str(new_string)+'&sort=priceasc'
             
             headers3.update({'referer':keyword_url})
             final_response = requests.request("GET", keyword_url, headers=headers3, data=payload)
@@ -183,7 +186,9 @@ def getProductsDetails(keywords):
         except:
             raise RuntimeError (f"There has been an error..")
     return
+
 getProductsDetails(keywords)
-print("We are Done ... ")
+
 final_df = pd.DataFrame(finaldata)
 final_df.to_excel("lazada-sg-products.xlsx", index=False)
+print("We are Done ... ")
