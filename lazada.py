@@ -11,6 +11,7 @@ from time import sleep
 from openpyxl.workbook import Workbook
 
 finaldata = []
+target_keywords = []
 
 def getCurrentEpochTime():
     milliseconds = int(round(time.time() * 1000))
@@ -77,17 +78,19 @@ csr_url = "https://member.lazada.sg/user/api/getCsrfToken"
 headers2.update({'referer':csr_url})
 headers2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+"; "+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})
 res2 = ses.get(csr_url, headers=headers2)
+# print(res2)
 tb_token = res2.cookies['_tb_token_']
+print("token", tb_token)
 anon_id = res2.cookies['anon_uid']
 lzd_sid = res2.cookies['lzd_sid']
-
+lzd_cid =res2.cookies['lzd_cid']
 cust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'
 newCookie2 = cust_cookie2+"_tb_token_="+tb_token+";"+"anon_uid="+anon_id+";"+"lzd_sid=" + \
     lzd_sid+";"+"t_fv="+str(getCurrentEpochTime()) + \
     ";"+"Domain=.lazada.sg; Path=/;"+x5sec
 
 
-url = "https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc"
+# url = "https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc"
 
 payload = {}
 headers3 = {
@@ -108,47 +111,22 @@ headers3 = {
 }
 headers3.update({"cookie": newCookie2})
 
-keywords = [
-            'lego 42121',
-            'lego 76160',
-            # 'lego 76191',
-            # 'lego 71372',
-            # 'lego 10941',
-            # 'lego 11013',
-            # 'lego 76383',
-            # 'lego 10951',
-            # 'lego 41936',
-            # 'lego 42123',
-            # 'lego 43191',
-            # 'lego 60287',
-            # 'lego 60291',
-            # 'lego 60304',
-            # 'lego 71736',
-            # 'lego 31115',
-            # 'lego 76901',
-            # 'lego 11001',
-            # 'lego 10872',
-            # 'lego 10920',
-            # 'lego 10915',
-            # 'lego 75551',
-            # 'lego 71742',
-            # 'lego 71360',
-            # 'lego 71368',
-            # 'lego 76165'
-            ]
+
+def prepairKeywords(file_name:str):
+    keywords_df = pd.read_excel(file_name, sheet_name='Sheet1')
+    mylist =keywords_df.to_dict('records')
+    target_keywords.extend(mylist)
+    print("Total Keywords :", len(mylist))
+    return
+
 def getProductsDetails(keywords):
-    for keyword in keywords:
-        keyword_index =keywords.index(keyword)+1
-        # print('Index', index)
-        keyword_data =[]
-        
+    for keyword in keywords[4:]:
         try:
-            new_string = urllib.parse.quote_plus(keyword)
-            keyword_url ='https://www.lazada.sg/catalog/?page=1&?q='+str(new_string)+'&sort=priceasc'
-            
+            new_string = urllib.parse.quote(keyword['keyword'])
+            keyword_url ='https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q='+new_string+'&sort=priceasc&spm=a2o42.home.search.go.654346b584Cbts'
             headers3.update({'referer':keyword_url})
             final_response = requests.request("GET", keyword_url, headers=headers3, data=payload)
-            print("working on Keyword: ",keyword)
+            print("working on Keyword: ",keyword['keyword'])
             sleep(10)
             # print(final_response.text)
             soup = BeautifulSoup(final_response.content, "html.parser")
@@ -164,30 +142,21 @@ def getProductsDetails(keywords):
                 else:
                     pass
             listItems = pageResults
-            for item in listItems:
-                try:
-                    item["originalPriceShow"]
-                    originalPrice = item['originalPriceShow']
-                except:
-                    originalPrice = 0
-                try:
-                    item["discount"]
-                    discount = item["discount"]
-                except:
-                    discount = 0
-                # keyword_data.append({"sku":keyword_index,"prod_Name": item["name"],"Keyword":keyword, "prod_Id": item["nid"], "prod_url": item["productUrl"],
-                #             "image": item["image"], "priceShow": item["priceShow"], "originalPrice": originalPrice, "discount": discount})
-                keyword_data.append({"sku":keyword_index,"prod_Name": item["name"],"Keyword":keyword, "noOfResults": len(listItems),"lowestPrice": item["priceShow"]})
-            prices=[x["lowestPrice"].split("$")[1].strip() for x in keyword_data]
-            # print(min(prices))
-            price_index =prices.index(min(prices))
-            finaldata.append(keyword_data[price_index])
-            
+            # assert len(listItems) !=None, "Results items in Zero"
+            if len(listItems) !=0:
+                print("Total results: ", len(listItems))
+                lowest_price_item = listItems[0]
+                finaldata.append({"Sku":keyword['sku'],'Name': keyword['name'],"Keyword":keyword['keyword'],"No_Of_Results": len(listItems),"Product_Name": lowest_price_item["name"], "Lowest_Price": lowest_price_item["priceShow"]})
+            elif len(listItems) ==0:
+                print("Total results: ", len(listItems))
+                finaldata.append({"Sku":keyword['sku'],'Name': keyword['name'],"Keyword":keyword['keyword'],"No_Of_Results": len(listItems),"Product_Name": 'n/a', "Lowest_Price": 'n/a'})
         except:
             raise RuntimeError (f"There has been an error..")
     return
 
-getProductsDetails(keywords)
+
+prepairKeywords(file_name='Keyword_lego.xlsx')
+getProductsDetails(target_keywords)
 
 final_df = pd.DataFrame(finaldata)
 final_df.to_excel("lazada-sg-products.xlsx", index=False)
