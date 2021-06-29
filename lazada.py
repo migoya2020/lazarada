@@ -1,3 +1,4 @@
+# from _typeshed import NoneType
 import requests
 import time
 import random
@@ -120,7 +121,7 @@ def prepairKeywords(file_name:str):
     return
 
 def getProductsDetails(keywords):
-    for keyword in keywords[4:]:
+    for keyword in keywords:
         try:
             new_string = urllib.parse.quote(keyword['keyword'])
             keyword_url ='https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q='+new_string+'&sort=priceasc&spm=a2o42.home.search.go.654346b584Cbts'
@@ -143,15 +144,17 @@ def getProductsDetails(keywords):
                     pass
             listItems = pageResults
             # assert len(listItems) !=None, "Results items in Zero"
-            if len(listItems) !=0:
+            if pageResults != None:
                 print("Total results: ", len(listItems))
                 lowest_price_item = listItems[0]
                 finaldata.append({"Sku":keyword['sku'],'Name': keyword['name'],"Keyword":keyword['keyword'],"No_Of_Results": len(listItems),"Product_Name": lowest_price_item["name"], "Lowest_Price": lowest_price_item["priceShow"]})
-            elif len(listItems) ==0:
-                print("Total results: ", len(listItems))
+            elif  pageResults == None:
+                print("Total results: ", 0)
                 finaldata.append({"Sku":keyword['sku'],'Name': keyword['name'],"Keyword":keyword['keyword'],"No_Of_Results": len(listItems),"Product_Name": 'n/a', "Lowest_Price": 'n/a'})
         except:
-            raise RuntimeError (f"There has been an error..")
+            final_df = pd.DataFrame(finaldata)
+            final_df.to_excel("lazada-sg-products.xlsx", index=False)
+            raise RuntimeError (f"There has been an error.. Check output file for what we have collected so far.")
     return
 
 
