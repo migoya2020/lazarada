@@ -1,0 +1,822 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "Workbook",
+        "importPath": "openpyxl.workbook",
+        "description": "openpyxl.workbook",
+        "isExtraImport": true,
+        "detail": "openpyxl.workbook",
+        "documentation": {}
+    },
+    {
+        "label": "Workbook",
+        "importPath": "openpyxl.workbook",
+        "description": "openpyxl.workbook",
+        "isExtraImport": true,
+        "detail": "openpyxl.workbook",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "capcha1",
+        "description": "capcha1",
+        "peekOfCode": "url = \"https://cf.aliyun.com/nocaptcha/initialize.jsonp?a=&t=1624001109737202096957151624183196184179&scene=&lang=cn&v=v1.2.20&href=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&comm={}&callback=initializeJsonp_047983710768132326\"\npayload={}\nheaders = {\n  'authority': 'cf.aliyun.com',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'accept': '*/*',\n  'sec-fetch-site': 'cross-site',\n  'sec-fetch-mode': 'no-cors',",
+        "detail": "capcha1",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "capcha1",
+        "description": "capcha1",
+        "peekOfCode": "headers = {\n  'authority': 'cf.aliyun.com',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'accept': '*/*',\n  'sec-fetch-site': 'cross-site',\n  'sec-fetch-mode': 'no-cors',\n  'sec-fetch-dest': 'script',\n  'referer': 'https://www.lazada.sg/',",
+        "detail": "capcha1",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "capcha1",
+        "description": "capcha1",
+        "peekOfCode": "response = requests.request(\"GET\", url, headers=headers, data=payload)\nprint(response.text)\ninitializeJsonp_047983710768132326({\"success\":true,\"result\":{\"msg\":\"fail\",\"success\":false}});",
+        "detail": "capcha1",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "capcha2",
+        "description": "capcha2",
+        "peekOfCode": "url = \"https://cf.aliyun.com/nocaptcha/initialize.jsonp?a=X82Y__be31bf05f5bc16c4a763907b48e1c0af&t=785deaed9c6d1d2d8f4b4d912809dcb7&scene=register&lang=en-us&v=v1.2.20&href=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&comm={}&callback=initializeJsonp_04935991327517646\"\nurl = \"https://cf.aliyun.com/nocaptcha/initialize.jsonp?a=&t=1624001109737202096957151624183196184179&scene=&lang=cn&v=v1.2.20&href=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&comm={}&callback=initializeJsonp_047983710768132326\"\npayload={}\nheaders = {\n  'authority': 'cf.aliyun.com',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'accept': '*/*',\n  'sec-fetch-site': 'cross-site',",
+        "detail": "capcha2",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "capcha2",
+        "description": "capcha2",
+        "peekOfCode": "url = \"https://cf.aliyun.com/nocaptcha/initialize.jsonp?a=&t=1624001109737202096957151624183196184179&scene=&lang=cn&v=v1.2.20&href=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&comm={}&callback=initializeJsonp_047983710768132326\"\npayload={}\nheaders = {\n  'authority': 'cf.aliyun.com',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'accept': '*/*',\n  'sec-fetch-site': 'cross-site',\n  'sec-fetch-mode': 'no-cors',",
+        "detail": "capcha2",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "capcha2",
+        "description": "capcha2",
+        "peekOfCode": "headers = {\n  'authority': 'cf.aliyun.com',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'accept': '*/*',\n  'sec-fetch-site': 'cross-site',\n  'sec-fetch-mode': 'no-cors',\n  'sec-fetch-dest': 'script',\n  'referer': 'https://www.lazada.sg/',",
+        "detail": "capcha2",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "capcha2",
+        "description": "capcha2",
+        "peekOfCode": "response = requests.request(\"GET\", url, headers=headers, data=payload)\nprint(response.text)\ninitializeJsonp_04935991327517646({\"success\":true,\"result\":{\"msg\":\"success\",\"success\":true}});",
+        "detail": "capcha2",
+        "documentation": {}
+    },
+    {
+        "label": "getCollina",
+        "kind": 2,
+        "importPath": "dd",
+        "description": "dd",
+        "peekOfCode": "def getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    return collina",
+        "detail": "dd",
+        "documentation": {}
+    },
+    {
+        "label": "getCurrentEpochTime",
+        "kind": 2,
+        "importPath": "lazada-api",
+        "description": "lazada-api",
+        "peekOfCode": "def getCurrentEpochTime():\n    milliseconds = int(round(time.time() * 1000))\n    return milliseconds\nc = \"https://acs-m.lazada.sg/h5/mtop.lazada.homepage.service/1.0/?jsv=2.6.1&appKey=24677475&t=\"+str(getCurrentEpochTime())+\"&sign=fee81b0725078e0ab6d09be0c24df241&api=mtop.lazada.homepage.service&v=1.0&timeout=8000&x-i18n-language=en&x-i18n-regionID=SG&dataType=json&type=originaljson&data=%7B%22language%22%3A%22en-SG%22%2C%22regionID%22%3A%22SG%22%2C%22platform%22%3A%22pc%22%2C%22userID%22%3A%22%22%2C%22anonUID%22%3A%22c328b6f1fe06a9af1cf8fcf407f1aa80%22%2C%22deviceID%22%3A%22%22%2C%22voyagerVersion%22%3A%222%22%2C%22pageNo%22%3A0%2C%22isbackup%22%3Atrue%2C%22backupParams%22%3A%22language%2CregionID%2Cplatform%2CpageNo%22%2C%22pcSlot%22%3A%22200%22%2C%22mobileSlot%22%3A%22200%22%2C%22appId%22%3A%22icms-zebra-5000357-2586207%22%2C%22_pvuuid%22%3A1624228890397%2C%22terminalType%22%3A1%7D\"\npayload={}\nheaders = {\n  'authority': 'acs-m.lazada.sg',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'accept': 'application/json',\n  'sec-ch-ua-mobile': '?0',",
+        "detail": "lazada-api",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "lazada-api",
+        "description": "lazada-api",
+        "peekOfCode": "c = \"https://acs-m.lazada.sg/h5/mtop.lazada.homepage.service/1.0/?jsv=2.6.1&appKey=24677475&t=\"+str(getCurrentEpochTime())+\"&sign=fee81b0725078e0ab6d09be0c24df241&api=mtop.lazada.homepage.service&v=1.0&timeout=8000&x-i18n-language=en&x-i18n-regionID=SG&dataType=json&type=originaljson&data=%7B%22language%22%3A%22en-SG%22%2C%22regionID%22%3A%22SG%22%2C%22platform%22%3A%22pc%22%2C%22userID%22%3A%22%22%2C%22anonUID%22%3A%22c328b6f1fe06a9af1cf8fcf407f1aa80%22%2C%22deviceID%22%3A%22%22%2C%22voyagerVersion%22%3A%222%22%2C%22pageNo%22%3A0%2C%22isbackup%22%3Atrue%2C%22backupParams%22%3A%22language%2CregionID%2Cplatform%2CpageNo%22%2C%22pcSlot%22%3A%22200%22%2C%22mobileSlot%22%3A%22200%22%2C%22appId%22%3A%22icms-zebra-5000357-2586207%22%2C%22_pvuuid%22%3A1624228890397%2C%22terminalType%22%3A1%7D\"\npayload={}\nheaders = {\n  'authority': 'acs-m.lazada.sg',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'accept': 'application/json',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'content-type': 'application/x-www-form-urlencoded',\n  'origin': 'https://www.lazada.sg',",
+        "detail": "lazada-api",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "lazada-api",
+        "description": "lazada-api",
+        "peekOfCode": "headers = {\n  'authority': 'acs-m.lazada.sg',\n  'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n  'accept': 'application/json',\n  'sec-ch-ua-mobile': '?0',\n  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n  'content-type': 'application/x-www-form-urlencoded',\n  'origin': 'https://www.lazada.sg',\n  'sec-fetch-site': 'same-site',\n  'sec-fetch-mode': 'cors',",
+        "detail": "lazada-api",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "lazada-api",
+        "description": "lazada-api",
+        "peekOfCode": "response = requests.request(\"GET\", url, headers=headers, data=payload)\nprint(response.text)",
+        "detail": "lazada-api",
+        "documentation": {}
+    },
+    {
+        "label": "getCurrentEpochTime",
+        "kind": 2,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "def getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    print(collina)\n    return collina\n  #162669716670062905180399\nses = requests.Session()",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "getCollina",
+        "kind": 2,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "def getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    print(collina)\n    return collina\n  #162669716670062905180399\nses = requests.Session()\nmmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "prepairKeywords",
+        "kind": 2,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "def prepairKeywords(file_name:str):\n    keywords_df = pd.read_excel(file_name, sheet_name='Sheet1')\n    mylist =keywords_df.to_dict('records')\n    target_keywords.extend(mylist)\n    print(\"Total Keywords :\", len(mylist))\n    return\ndef getProductsDetails(keywords):\n    for keyword in keywords:\n        try:\n            new_string = urllib.parse.quote(keyword['keyword'])",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "getProductsDetails",
+        "kind": 2,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "def getProductsDetails(keywords):\n    for keyword in keywords:\n        try:\n            new_string = urllib.parse.quote(keyword['keyword'])\n            # new_string = urllib.parse.quote('lego 10951')\n            keyword_url ='https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q='+new_string+'&sort=priceasc&spm=a2o42.home.search.go.654346b584Cbts'\n            headers3.update({'referer':keyword_url})\n            final_response = requests.request(\"GET\", keyword_url, headers=headers3, data=payload)\n            print(\"working on Keyword: \",keyword['keyword'])\n            sleep(10)",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "finaldata",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "finaldata = []\ntarget_keywords = []\ndef getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    print(collina)\n    return collina",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "target_keywords",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "target_keywords = []\ndef getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    print(collina)\n    return collina\n  #162669716670062905180399",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "ses",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "ses = requests.Session()\nmmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "mmstat",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "mmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}\nREQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "headers0",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "headers0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}\nREQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'\nres0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "REQUESTBODY",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "REQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'\nres0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)\n# print(res0.headers)\nsca = res0.cookies.get('sca')\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "res0",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "res0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)\n# print(res0.headers)\nsca = res0.cookies.get('sca')\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "sca",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "sca = res0.cookies.get('sca')\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)\napt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "url1",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "url1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)\napt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": \"sca=\"+sca+\";\"+\"atpsida=\"+atpsida+\";\"})",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "aptResp",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "aptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)\napt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": \"sca=\"+sca+\";\"+\"atpsida=\"+atpsida+\";\"})\napt2Res = ses.get(apt2_url, headers=headers0)\n#print(apt2Res.cookies.items())\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "atpsida",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "atpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)\napt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": \"sca=\"+sca+\";\"+\"atpsida=\"+atpsida+\";\"})\napt2Res = ses.get(apt2_url, headers=headers0)\n#print(apt2Res.cookies.items())\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "cna",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "cna = aptResp.cookies.get('cna')\nprint(\"cna\", cna)\napt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": \"sca=\"+sca+\";\"+\"atpsida=\"+atpsida+\";\"})\napt2Res = ses.get(apt2_url, headers=headers0)\n#print(apt2Res.cookies.items())\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "apt2_url",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "apt2_url = 'https://sg.mmstat.com/v.gif?logtype=1&title=lego%20super%20heroes%2076160%20-%20Buy%20lego%20super%20heroes%2076160%20at%20Best%20Price%20in%20Singapore%20%7C%20www.lazada.sg&pre=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&cna='+cna + \\\n    '&spm-cnt=a2o42.searchlist.0.0.12ea5675du9NP3&cfgver=1.0&aplus&asid=AQAAAAA67xdgHA3hZAAAAAAcxAAg7RzJQg==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=ead245&lver=8.15.6&jsver=aplus_int&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&lzd_pg_type=search&_p_lang=en&_p_ref=&lzd_layout=desktop&_s_engine=HA3&_p_usertype=new&_s_bucket_id=v0&_s_reqNo=30020a5d0d3952278b4f0b68ed0aa250&_s_resultNr=7&_s_internal_term=lego%20super%20heroes%2076160&_s_internal_type=Search%20Results&_s_filters=&utm_channel=NA&undefined=undefined&ab_cookie=&_p_meta_desc=lego%20super%20heroes%2076160%20Singapore%20-%20Shop%20for%20best%20lego%20super%20heroes%2076160%20online%20at%20www.lazada.sg&_p_meta_robots=index%2Cfollow&_p_canonical=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F&_hng=SG%257Cen-SG%257CSGD%257C702&tag=1&stag=-1&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": \"sca=\"+sca+\";\"+\"atpsida=\"+atpsida+\";\"})\napt2Res = ses.get(apt2_url, headers=headers0)\n#print(apt2Res.cookies.items())\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "apt2Res",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "apt2Res = ses.get(apt2_url, headers=headers0)\n#print(apt2Res.cookies.items())\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "x5sec_url",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "x5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "headers2",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "headers2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',\n    'sec-fetch-mode': 'navigate',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "cust_cookie1",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "cust_cookie1 = '_uab_collina='+str(getCollina())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; utm_channel=NA; cna='+cna\nnewCookie1 = cust_cookie1+\"t_fv=\"+str(getCurrentEpochTime())+\";\"+\"cna=\"+cna+\";\"\nheaders2.update({\"cookie\": newCookie1})\nres1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "newCookie1",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "newCookie1 = cust_cookie1+\"t_fv=\"+str(getCurrentEpochTime())+\";\"+\"cna=\"+cna+\";\"\nheaders2.update({\"cookie\": newCookie1})\nres1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "res1",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "res1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "x5sec",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "x5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "csr_url",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "csr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "res2",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "res2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "tb_token",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "tb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "anon_id",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "anon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "lzd_sid",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "lzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "cust_cookie2",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "cust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "newCookie2",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "newCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "payload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "headers3",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "headers3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',\n    'sec-fetch-mode': 'navigate',",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "final_df",
+        "kind": 5,
+        "importPath": "lazada",
+        "description": "lazada",
+        "peekOfCode": "final_df = pd.DataFrame(finaldata)\nfinal_df.to_excel(\"lazada-sg-products.xlsx\", index=False)\nprint(\"We are Done ... \")",
+        "detail": "lazada",
+        "documentation": {}
+    },
+    {
+        "label": "getCurrentEpochTime",
+        "kind": 2,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "def getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    return collina\n  #162669716670062905180399\nses = requests.Session()\nmmstat = \"https://gm.mmstat.com/fsp.1.1\"",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "getCollina",
+        "kind": 2,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "def getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    return collina\n  #162669716670062905180399\nses = requests.Session()\nmmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "prepairKeywords",
+        "kind": 2,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "def prepairKeywords(file_name:str):\n    keywords_df = pd.read_excel(file_name, sheet_name='Sheet1')\n    mylist =keywords_df.to_dict('records')\n    target_keywords.extend(mylist)\n    print(\"Total Keywords :\", len(mylist))\n    return\ndef getProductsDetails(keywords):\n    for keyword in keywords[:1]:\n        # try:\n        new_string = urllib.parse.quote(keyword['keyword'])",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "getProductsDetails",
+        "kind": 2,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "def getProductsDetails(keywords):\n    for keyword in keywords[:1]:\n        # try:\n        new_string = urllib.parse.quote(keyword['keyword'])\n        # new_string = urllib.parse.quote('lego 10951')\n        keyword_url ='https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q='+new_string+'&sort=priceasc&spm=a2o42.home.search.go.654346b584Cbts'\n        headers3.update({'referer':keyword_url})\n        final_response = requests.request(\"GET\", keyword_url, headers=headers3, data=payload)\n        print(\"working on Keyword: \",keyword['keyword'])\n        sleep(10)",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "finaldata",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "finaldata = []\ntarget_keywords = []\ndef getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    return collina\n  #162669716670062905180399",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "target_keywords",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "target_keywords = []\ndef getCurrentEpochTime():\n    t_fv = int(round(time.time() * 1000))\n    return t_fv\n    #generate 1626697166798\ndef getCollina():\n    collina = int(round(time.time() * 100000000000000))\n    return collina\n  #162669716670062905180399\nses = requests.Session()",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "ses",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "ses = requests.Session()\nmmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "mmstat",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "mmstat = \"https://gm.mmstat.com/fsp.1.1\"\nheaders0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}\nREQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "headers0",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "headers0 = {'user-agent': 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',\n            'accept-language': 'en-GB,en;q=0.5',\n            'accept-encoding': 'gzip, deflate, br',\n            'content-type': 'text/plain;charset=UTF-8',\n            'content-length': '958',\n            'origin': 'https://www.lazada.sg',\n            'referer': 'https://www.lazada.sg/',\n            'te': 'trailers'}\nREQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'\nres0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "REQUESTBODY",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "REQUESTBODY = b'{\"gmkey\":\"OTHER\",\"gokey\":\"c1=24cb9fab896eaeb862cd1e05be46c159&delay=0&hash=&last_pos=0%252C0&msg=Daraz-mm-web%2520%25E9%25A1%25B5%25E9%259D%25A2-%25E9%25AA%258C%25E8%25AF%2581%25E7%25A0%2581&page=https%253A%252F%252Fwww.lazada.sg%252Fcatalog%252F&patch_ver=-&pid=punish-page&query=_keyori%253Dss%2526from%253Dinput%2526page%253D1%2526q%253Dlego%252520super%252520heroes%25252076160%2526sort%253Dpriceasc&raw_ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&referrer=&rel=&scr=1920x1080&spm_a=&spm_b=&title=&tracker_ver=4.0.0&type=11&ua=Mozilla%252F5.0%2520(Windows%2520NT%25206.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F51.0.2704.79%2520Safari%252F537.36%2520Edge%252F14.14393&uid=24cb9fab896eaeb862cd1e05be46c159\",\"logtype\":\"2\"}'\nres0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)\nsca = res0.cookies.get('sca')\nprint(sca)\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "res0",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "res0 = ses.post(mmstat, headers=headers0, data=REQUESTBODY)\nsca = res0.cookies.get('sca')\nprint(sca)\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(cna)",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "sca",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "sca = res0.cookies.get('sca')\nprint(sca)\nurl1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(cna)\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "url1",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "url1 = 'https://sg.mmstat.com/v.gif?logtype=1&title=Sorry%2C%20we%20have%20detected%20unusual%20traffic%20from%20your%20network.&pre=&scr=1920x1080&_p_url=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3F_keyori%3Dss%26from%3Dinput%26page%3D1%26q%3Dlego%2Bsuper%2Bheroes%2B76160%26sort%3Dpriceasc&spm-cnt=0.0.0.0.12ea720bk56Fp8&category=&uidaplus=&aplus&yunid=&&trid=0b1195ac16242090565304668e18a4&asid=AQAAAACgds9gAG8WOQAAAAB6nRh1hY3K2Q==&p=1&o=winVista&b=edge14&s=1920x1080&w=edge&ism=pc&cache=f1950f8&lver=8.15.6&jsver=aplus_std&pver=0.7.11&ps_i=AtvbWCF0BFxy5LNEYujErjyi9S0vs0YE&pc_i=dd1LzJIaYkuiQ2qD4w76tNGWBDqdu383&_p_ref=&_p_usertype=new&utm_channel=NA&ab_cookie=&_p_meta_desc=&_p_meta_robots=&_p_canonical=&tag=0&stag=-2&lstag=-1&_slog=0'\nheaders0.update({\"cookie\": sca})\n# headers0.update({\"cookie\": cna})\naptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(cna)\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "aptResp",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "aptResp = ses.get(url1, headers=headers0)\natpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(cna)\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "atpsida",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "atpsida = aptResp.cookies.get('atpsida')\ncna = aptResp.cookies.get('cna')\nprint(cna)\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "cna",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "cna = aptResp.cookies.get('cna')\nprint(cna)\nx5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "x5sec_url",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "x5sec_url = '''https://www.lazada.sg/catalog/_____tmd_____/slide?slidedata=%7B%22a%22%3A%22X82Y__be31bf05f5bc16c4a763907b48e1c0af%22%2C%22t%22%3A%2224cb9fab896eaeb862cd1e05be46c159%22%2C%22n%22%3A%22140%23aNrDwv1RzzFcYzo2LxXbwpN8s7a7F7PN6mbFvL7y%2F9YTnb4nX7k0elKp%2Bu1FXWt68W8PqD7E04hGOomnZ%2BODnZO1DCJqlbzxgegh%2BDrbzzcX3OaIlpTzzPzbVXlqlbrxbhUobpJXzFzY228%2BlpYAzMnDFaGLMZ2aMX4tjY1yIqph8Vr%2BlCpg0XKK92Q29QqY%2FkIUYgUz8C29yd5i5Vs32FnRHMtVtN8HQh4kR2ArM580B48Y3fzApuReOQjLN74Csgibm%2FPt9Kzn%2FLdQ5NTei1qy7FVHec60DXNl%2BnZ5FZUJCs94mnY87lf0fh56H9z6OWS%2BIIhUI1G7SLIS%2FobWtfm8g5zdtAgKidmpUaXbKhEMFnM%2Fu7%2Fj3lgEXsevQgNyYWbq1tNBI44CSzk8mIq1%2F0vxZvpWe%2B1piJUy1u4eNnrlDY5IOkqHelRMzF73ikWg4t8P9FemUHUxFTigg6S14ZSYM3a7KJEGjRmkqCHcSFx248wX1lqZ9jG4vBGBQaWhXo9kmcP8UW5%2FnlmG3j8Nq%2Ba3JrzEHoDFoDco4Y6BEYOl9ejE6dWCBl1W8lIqPGZfBFk0aDkb0e8o2ANIzEk9hGeCnqc26zLbZHbEQrk3uZObJGt0kMvTlYcozLOvUKTMB6RCD8PyIjVmieikc6poZna2B3EHHg6GZ7CHCtTJETSYuolj%2FxAtsKBBZSRCYh2Hs2O7MnLGbyHBp4apVlQI4nIGsSO8LmIyRXSWYqMotA%2FW%2BwlQoTqy%2F7E0qi3PzEMw1BAqjoBJCOApJPzQ5UZwkgHW98MoV3homlAoOmDML5ZSII2skFe9DkkvCr%2FhMoVwMxRwcxY9c31AebB0UWhosCJJnY1ZLU4TzGv4H4pQ4qLfv5OuSgamNFMHv52KixN%2FazfGNHGJjeOn%2FoRlCyneE5Qd9%2B8GW1dhIk4e%2BJrVO4%2Bga5KO9kRUMMRxzs5hU1TXmbcHCfzGbs%2FA5Nq0y6Xdkar%2BdrMLFv8NQjsr9yOO5QL%2FMDGILr4HO5p3BHgAwjmL9wQUyRHhCIS4WDGy6jw0NKNih74V%2BNGNflSO91glcgIiUnbZmSabCNUmVOOssOGXutq3GRXLIguSE2ULG09iZbMSlIU0GYTp0EMHCcwKsONznPm0W0MCfO6phHvqsdhC%2BtS5lnNhAHx4QbM%3D%22%2C%22p%22%3A%22%7B%5C%22ncSessionID%5C%22%3A%5C%225e701f057423%5C%22%2C%5C%22umidToken%5C%22%3A%5C%22T2gA4clYee1JZKc_ULNeXoubx4TNYndtv5Tybeb7jw8pXQTqcJ_m3QekFAuJZXokAhE%3D%5C%22%7D%22%2C%22scene%22%3A%22register%22%2C%22asyn%22%3A0%2C%22lang%22%3A%22en-gb%22%2C%22v%22%3A1030%7D&x5secdata=5e0c8e1365474455070961b803bd560607b52cabf5960afff39b64ce58073f78012dae8a376add8f7d5090538e1e563bcb80a1d11280bfd4955c983649d236c9a29fd306cf9530377c982eb362590715eb2bc16b1dbc91ea592f0222d32ec23f1976b91a091e5174a4153ee53f360b269783bbae415916f4e376d892cf8ccf5d68422032707df10bffe42dc58e5a993ec3a8710f61b3b110cf4807feb22670a85af0d5e9efd9d78f0b14f57ce89d43bc26b20b49197390b2a55838aad57f39894b2701c91176ab9378ab1b6e9fc20e13165dd37aa6138b58f4ee6dfa387d87305091dbdd424f20b7a856f5ca145d5d52a58e87f6675d10cea8c836ded2ef5e6fa6ef014b5cd3e16cef7ef1bf63dc1b1836cfd60bef24b7d07ed36b5b58fac926c04c413eb3797839fbf0772110cd4e2ced81c65bebf3b9df46dd6afed6f19989f1494fb2d4c59312a226c44ca7f0d2b36d15d396b4daa1bd48442c5700e2e892a63dc72832ff90b6a1db80083d777fa3fdd3eac5bf7400509807f07e67be6835393290f457efcaf0f68da47fb24ac2d780669346b0dc673bf393fa07750577e3fd8cb1124bff7824ce5ae2937043eb914afed865b37df553413632bda1176599157ba1015c766642213065164fbfbb56cf48ccfd368560bec378da3f1b4a07885aba8be5a6e7a473b86131b42a19d61f&v=034986025553421496'''\nheaders2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "headers2",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "headers2 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',\n    'sec-fetch-mode': 'navigate',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "cust_cookie1",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "cust_cookie1 = '_uab_collina='+str(getCollina())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; utm_channel=NA; cna='+cna\nnewCookie1 = cust_cookie1+\"t_fv=\"+str(getCurrentEpochTime())+\";\"+\"cna=\"+cna+\";\"\nheaders2.update({\"cookie\": newCookie1})\nres1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "newCookie1",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "newCookie1 = cust_cookie1+\"t_fv=\"+str(getCurrentEpochTime())+\";\"+\"cna=\"+cna+\";\"\nheaders2.update({\"cookie\": newCookie1})\nres1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "res1",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "res1 = requests.request(\"GET\", x5sec_url, headers=headers2)\nx5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "x5sec",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "x5sec = res1.cookies.get('x5sec')\n# print(x5sec)\n# print(res1.content)\ncsr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "csr_url",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "csr_url = \"https://member.lazada.sg/user/api/getCsrfToken\"\nheaders2.update({'referer':csr_url})\nheaders2.update({'cookie':'_uab_collina='+str(getCollina())+'; t_fv='+str(getCurrentEpochTime())+'; t_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk; '+'cna='+cna+\"; \"+'t_sid=Zy04Rqzam1vINdiRukB6cDxysdpXi4Rr; '+'x5sec='+x5sec})\nres2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "res2",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "res2 = ses.get(csr_url, headers=headers2)\n# print(res2)\ntb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "tb_token",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "tb_token = res2.cookies['_tb_token_']\nprint(\"token\", tb_token)\nanon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "anon_id",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "anon_id = res2.cookies['anon_uid']\nlzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "lzd_sid",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "lzd_sid = res2.cookies['lzd_sid']\nlzd_cid =res2.cookies['lzd_cid']\ncust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "cust_cookie2",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "cust_cookie2 = 't_uid=AMlBY7RwkC08GohRMxCItbSLPr2fb5Yk;cna='+cna+'; hng=SG|en-SG|SGD|702;client_type=desktop;'\nnewCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "newCookie2",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "newCookie2 = cust_cookie2+\"_tb_token_=\"+tb_token+\";\"+\"anon_uid=\"+anon_id+\";\"+\"lzd_sid=\" + \\\n    lzd_sid+\";\"+\"t_fv=\"+str(getCurrentEpochTime()) + \\\n    \";\"+\"Domain=.lazada.sg; Path=/;\"+x5sec\n# url = \"https://www.lazada.sg/catalog/?_keyori=ss&from=input&page=1&q=lego+super+heroes+76160&sort=priceasc\"\npayload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "payload = {}\nheaders3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "headers3",
+        "kind": 5,
+        "importPath": "tutorial",
+        "description": "tutorial",
+        "peekOfCode": "headers3 = {\n    'authority': 'www.lazada.sg',\n    'cache-control': 'max-age=0',\n    'sec-ch-ua': '\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"',\n    'sec-ch-ua-mobile': '?0',\n    'upgrade-insecure-requests': '1',\n    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.51 Safari/537.36',\n    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n    'sec-fetch-site': 'same-origin',\n    'sec-fetch-mode': 'navigate',",
+        "detail": "tutorial",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "url",
+        "description": "url",
+        "peekOfCode": "new = urllib.parse.quote_plus(string)\nprint(new)",
+        "detail": "url",
+        "documentation": {}
+    }
+]
