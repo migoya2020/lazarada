@@ -1,0 +1,283 @@
+{
+    "mods": {
+        "filter": {
+            "tItemType": "nt_filter",
+            "filterItems": [
+                {
+                    "options": [],
+                    "showMin": "Min",
+                    "showMax": "Max",
+                    "name": "price",
+                    "type": "price",
+                    "unfoldRow": "2",
+                    "title": "Price",
+                    "urlKey": "price",
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "name": "rating",
+                    "type": "rating",
+                    "unfoldRow": "2",
+                    "title": "Rating",
+                    "urlKey": "rating",
+                    "value": "0",
+                    "hidden": false,
+                    "locked": false
+                }
+            ],
+            "filteredQuatity": "0",
+            "filteredDoneText": "Product",
+            "bizData": "",
+            "pos": 0
+        },
+        "tryAlso": {
+            "tItemType": "nt_tryalso",
+            "items": [
+                {
+                    "title": "lego",
+                    "url": "/catalog/?q=lego"
+                }
+            ],
+            "bizData": "{\\"tItemType\\":\\"nt_tryalso\\",\\"items\\":[{\\"title\\":\\"lego\\",\\"url\\":\\"/catalog/?q\\\\u003dlego\\"}],\\"pos\\":0}",
+            "pos": 0
+        },
+        "breadcrumb": [
+            {
+                "url": "https://www.lazada.sg",
+                "title": "Home"
+            },
+            {
+                "title": "Search Results"
+            }
+        ],
+        "sortBar": {
+            "tItemType": "nt_sortbar",
+            "filter": "Filter",
+            "style": "wf",
+            "sortItems": [
+                {
+                    "name": "Popularity",
+                    "tip": "Best Match",
+                    "value": "popularity",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-ASC",
+                    "tip": "Price low to high",
+                    "isActive": "true",
+                    "value": "priceasc",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-DESC",
+                    "tip": "Price high to low",
+                    "value": "pricedesc",
+                    "key": "sort",
+                    "tabName": ""
+                }
+            ],
+            "hiddenLayoutBtn": false,
+            "showFilterBtn": true,
+            "hasFilter": false,
+            "module": {
+                "widgets": {},
+                "style": {
+                    "sale": {
+                        "type": "text",
+                        "color": "0x666666",
+                        "selectColor": "0x1B5EE2",
+                        "fontSize": "15",
+                        "marginLeft": "16",
+                        "direction": "left"
+                    },
+                    "guarantee": {
+                        "type": "img",
+                        "width": "34",
+                        "height": "24",
+                        "marginRight": "5",
+                        "marginBottom": "5",
+                        "direction": "right"
+                    },
+                    "freeshipping": {
+                        "type": "img",
+                        "width": "33",
+                        "height": "23",
+                        "marginRight": "5",
+                        "marginBottom": "2",
+                        "direction": "right"
+                    }
+                }
+            }
+        },
+        "resultTips": {
+            "tItemType": "nt_resulttips",
+            "tips": "0 items found for \\"{$0
+            }\\"",
+            "brandLink": "",
+            "keywords": [
+                {
+                    "text": "lego 31115"
+                }
+            ]
+        },
+        "linksInfo": []
+    },
+    "mainInfo": {
+        "errorMsg": "",
+        "bizCode": 0,
+        "cluster": "sg-os30",
+        "isShowFloatCart": false,
+        "isHideAddToCart": false,
+        "totalResults": "0",
+        "pageSize": "40",
+        "page": "1",
+        "RN": "a288cd9059bc527b4508acd225b753de",
+        "style": "wf",
+        "layoutInfo": {
+            "listHeader": [
+                "shopBanner",
+                "campaignBanner",
+                "categoryBar",
+                "brandBar",
+                "resultTips",
+                "didYouMean",
+                "promotionfilter",
+                "superStore",
+                "navCategory",
+                "banner",
+                "hotDeal",
+                "emptyResult",
+                "recQuery"
+            ],
+            "stickyHeader": [
+                "sortBar",
+                "preposeFilter"
+            ],
+            "sceneHeader": [
+                "sceneHeader"
+            ]
+        },
+        "pageType": "searchList",
+        "gridTitleLine": "2",
+        "trackParams": {},
+        "cate_id": "9108",
+        "hyperspaceInfo": "",
+        "lang": "en",
+        "venture": "SG",
+        "currency": "$",
+        "currencyOnRight": "false",
+        "currencySpace": "false",
+        "isShowFeedbackForm": "false",
+        "showThumbs": "false",
+        "allProductURL": "/all-products/",
+        "addToCartURL": "//cart.lazada.sg/cart/api/add",
+        "themes": [
+            {
+                "key": "nay6vm",
+                "isImgIcon": "1",
+                "url": "https://gcp-img.slatic.net/lazada/id0053920-56-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 56, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "freeShipping",
+                "isImgIcon": "1",
+                "url": "//laz-img-cdn.alicdn.com/tfs/TB1QTkMXG67gK0jSZFHXXa9jVXa-45-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 45, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "lazMall",
+                "isImgIcon": "1",
+                "url": "https://gw.alicdn.com/tfs/TB1r3Rqi2zO3e4jSZFxXXaP_FXa-94-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 86, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "redmart",
+                "isImgIcon": "1",
+                "url": "//img.alicdn.com/tfs/TB1J78ChAY2gK0jSZFgXXc5OFXa-84-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 84, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "MjaiYn",
+                "isImgIcon": "1",
+                "url": "//gcp-img.slatic.net/lazada/id00108-56-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 56, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "eMbyIj",
+                "isImgIcon": "1",
+                "url": "//laz-img-cdn.alicdn.com/tfs/TB1UZp2jYj1gK0jSZFuXXcrHpXa-54-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 54, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "aY7vM3",
+                "isImgIcon": "1",
+                "url": "//laz-img-cdn.alicdn.com/tfs/TB1SY7noEH1gK0jSZSyXXXtlpXa-56-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 56, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "6JFJvm",
+                "isImgIcon": "1",
+                "url": "//gcp-img.slatic.net/lazada/id0046102-56-28.jpg",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 56, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "RvaENn",
+                "isImgIcon": "1",
+                "url": "//gcp-img.slatic.net/lazada/id0036065-140-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 140, height: 28}",
+                "text": ""
+            },
+            {
+                "key": "zAFBvi",
+                "isImgIcon": "1",
+                "url": "https://laz-img-cdn.alicdn.com/imgextra/i4/O1CN01noO9yJ1j20g4EYgvj_!!6000000004489-2-tps-214-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width:214, height:28}",
+                "text": ""
+            },
+            {
+                "key": "NNjuUr",
+                "isImgIcon": "1",
+                "url": "https://gcp-img.slatic.net/lazada/8ec46297-b15f-4f54-b97c-7eccf1d81de6_ALL-103-26.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": "{width: 103, height: 26}",
+                "text": ""
+            }
+        ],
+        "q": "lego 31115",
+        "column": 2,
+        "bucketId": "v2",
+        "auctionType": 1,
+        "selectedFilters": {},
+        "reqParams": "{\\"src\\":\\"h5_internal\\",\\"refer\\":\\"https: //www.lazada.sg/catalog/?q=lego+42121\\",\\"scenario\\":\\"keyword-dynamic\\",\\"ab_test\\":\\"BASE:0\\"}","pageTitle":"lego 31115 - Buy lego 31115 at Best Price in Singapore | www.lazada.sg"},"seoInfo":{"robotsContent":"index,follow","canonicalHref":"https://www.lazada.sg/tag/lego-31115/","androidDeepLink":"android-app://com.lazada.android/lazada/sg/page?url_key=%2Fcatalog%2F%3Fq%3Dlego%252031115&utm_campaign=https%3A%2F%2Fwww.lazada.sg%2Fcatalog%2F%3Fq%3Dlego%252031115&utm_medium=organic&utm_source=google_app_indexing&utm_from=search","nextHref":"https://www.lazada.sg/catalog/?page=2&q=lego%2031115","internalLink":[],"h1":"","pageTitle":"lego 31115 - Buy lego 31115 at Best Price in Singapore | www.lazada.sg","description":"lego 31115 Singapore - Shop for best lego 31115 online at www.lazada.sg","itemListSchema":[],"breadcrumbSchema":{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"item":{"@id":"https://www.lazada.sg","name":"Home"},"@type":"ListItem","position":1}]},"breadcrumbData":[{"categoryName":"Home","categoryLink":"https://www.lazada.sg"},{"categoryName":"Search Results"}]}}
